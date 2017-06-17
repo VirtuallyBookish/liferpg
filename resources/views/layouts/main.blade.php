@@ -15,7 +15,11 @@
 </head>
 <body>
 
+@include('includes.navbar')
+
 @yield('content')
+
+@include('includes.footer')
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
